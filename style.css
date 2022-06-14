@@ -1,2 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+header {
+  position: absolute;
+  grid-area: header;
+  left: 0;
+}
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  height: 100vh;
+
+}
+
+main .conteiner {
+  margin: auto;
+  background-color: #24221f;
+  width: 33.1rem;
+  height: 32rem;
+}
+
+body {
+  background-color: #191816;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50%;
+  grid-template-areas: 
+  'header img'
+  'form img' 
+}
+ 
+
+ 
+
+.veiculo-foto {
+  /* width: 50%; */
+  grid-area: img;
+}

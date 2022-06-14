@@ -14,6 +14,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/a58cd87379.js"
+      crossorigin="anonymous"
+    ></script>
     <title>formulario</title>
   </head>
   <body>
@@ -23,36 +27,47 @@
         alt="logomarca-de-um-triangulo-escrito-campin"
       />
     </header>
-    <div class="login">
-      <h1>
-        <img src="./img/log-in.svg" alt="logo-de-entrada-para-o-login" />Faça
-        seu login
-      </h1>
-      <p>Entre com suas informações de cadastro.</p>
-    </div>
+    <main>
+      <div class="conteiner">
 
-    <form action="">
-      <div class="formulario">
-        <label for="email">E-mail</label>
-        <img src="./img/mail.svg" alt="envelope-de-email" />
-        <input type="email" placeholder="Digite seu email" id="email" />
+        <div class="login">
+          <h1>
+            <img src="./img/log-in.svg" alt="logo-de-entrada-para-o-login" />Faça
+            seu login
+          </h1>
+          <p>Entre com suas informações de cadastro.</p>
+        </div>
+        <form action="">
+          <label for="email">E-mail</label>
+          <div class="formulario">
+            <img src="./img/mail.svg" alt="envelope-de-email" />
+            <input type="email" placeholder="Digite seu email" id="email" />
+          </div>
+          <label for="password">Senha</label>
+          <div class="formulario">
+            <input type="password" placeholder="Digite sua senha" id="password" />
+            <img src="./img/lock.svg" alt="" />
+            <span class="lnr lnr-eye"></span>
+          </div>
+          <div>
+            <input type="checkbox" id="lembre-me" />
+            <label for="Lembre-me">Lembre-me</label>
+            <span>Esqueci minha senha</span>
+          </div>
+          <button class="btn-login">ENTRAR</button>
+        </form>
+        <p>
+          Não tem uma conta ?
+          <a href="https://www.youtube.com/" target="_blank">Registre-se</a>
+        </p>
       </div>
-      <div class="formulario">
-        <label for="password">Senha</label>
-        <input type="password" placeholder="Digite sua senha" id="password" />
-        <img src="./img/lock.svg" alt="" />
-        <span class="lnr lnr-eye"></span>
+
+    </main>
+    <div class="veiculo-foto">
+      <img
+        src="./img/side-image-2x.jpg"
+        alt="veiculo-4x4-com-uma-barraca-de-acampada-encima"/>
       </div>
-      <div>
-        <input type="checkbox" id="lembre-me" />
-        <label for="Lembre-me">Lembre-me</label>
-        <span>Esqueci minha senha</span> 
-      </div>
-      <button class="btn-login">ENTRAR</button>
-      <p>Não tem uma conta ? <a href="#">Registre-se</a></p>
-    </form>
-    <aside>
-      <img src="./img/side-image-2x.jpg" alt="veiculo-4x4-com-uma-barraca-de-acampada-encima">
-    </aside>
-  </body>
-</html>
+    </body>
+    </html>
+      

@@ -5,23 +5,72 @@
 }
 
 header {
-  position: absolute;
+  position: fixed;
   grid-area: header;
   left: 0;
 }
+
+.login div {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.login div h1 {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #D4CCB6;
+}
+
+.login p {
+  font-family: 'Roboto';
+  font-weight:500;
+  color: #AFB6C2;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+
+
+  
+}
+
+form label {
+  font-family: 'Poppins';
+  font-weight: 500;
+  color:#AFB6C2;
+  text-align: left;
+
+
+}
+
+form label:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+form input:nth-child() {
+  border: 1px solid red;
+}
+
 
 main {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
- 
-  height: 100vh;
 
+  height: 100vh;
 }
 
 main .conteiner {
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #24221f;
   width: 33.1rem;
   height: 32rem;
@@ -33,13 +82,10 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50%;
-  grid-template-areas: 
-  'header img'
-  'form img' 
+  grid-template-areas:
+    'header img'
+    'form img';
 }
- 
-
- 
 
 .veiculo-foto {
   /* width: 50%; */

@@ -10,6 +10,11 @@ header {
   left: 0;
 }
 
+header .logo1 {
+  padding: 1.5rem;
+}
+  
+
 .login div {
  display: flex;
  align-items: center;
@@ -43,6 +48,7 @@ form label {
   font-weight: 500;
   color:#AFB6C2;
   text-align: left;
+  padding-top: .9rem;
 
 
 }
@@ -55,6 +61,43 @@ form label:nth-child(2) {
 form input:nth-child() {
   border: 1px solid red;
 }
+
+.btn-login {
+  background: #FFC632;
+  font-family: 'Poppins';
+  font-weight: 600;
+  height: 2.4rem;
+  width: 15rem;
+
+}
+
+.btn-login:hover {
+ box-shadow: 2px 2px white;
+ transition: 250ms;
+}
+
+span:nth-child(3) {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #FFC632;
+  /* padding-left: 3.6rem; */
+  
+}
+
+
+.form-footer {
+ display: flex;
+ padding: .9rem;
+}
+
+.register  {
+  color: #FFC632;
+  padding-top: 0.9rem;
+}
+  
+
+  
 
 
 main {

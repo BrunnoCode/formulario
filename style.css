@@ -9,30 +9,50 @@ body {
   background: #191816;
 }
 
+.logo1 {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+}
+
 .container {
+  display: flex;
   width: 100%;
   height: 100%;
+  /* gap: 16%; */
+}
+
+section.img-section {
+  height: 100%;
+  width: 50%;
+
+  background-image: url('./img/side-image.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
 }
 
 .content {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
-  
-
+  position: relative;
 }
 
 .form-section {
+  margin-left: 8.5em;
+  width: 30rem;
+  display: flex;
   background: #3a3a3a;
   padding: 50px 120px;
   margin: 0 auto;
 }
 
 .form {
-display: grid;
-gap: 12px;
-max-width: 30rem;
-width: 20.93rem;
+  display: grid;
+  gap: 12px;
+  max-width: 30rem;
+  width: 20.93rem;
 }
 
 .input {
@@ -49,48 +69,43 @@ width: 20.93rem;
 
 .input input {
   padding: 12px 12px 12px 37px;
-
 }
 
-input[type="email"] {
-  background-image: url("./img/mail.svg");
+input[type='email'] {
+  background-image: url('./img/mail.svg');
   background-repeat: no-repeat;
   background-position: 12px;
 }
-input[type="email"]:focus {
-  background-image: url("./img/mail-focus.svg");
-  
+input[type='email']:focus {
+  background-image: url('./img/mail-focus.svg');
 }
 
-input[type="password"] {
-  background-image: url("./img/lock.svg");
+input[type='password'] {
+  background-image: url('./img/lock.svg');
   background-repeat: no-repeat;
   background-position: 12px;
 }
-input[type="password"]:focus {
-  background-image: url("./img/lock-focus.svg");
-  
-  
+input[type='password']:focus {
+  background-image: url('./img/lock-focus.svg');
 }
 .input input:focus {
   outline: 0;
-  border: 2px solid #FFC632;
+  border: 2px solid #ffc632;
 }
 
 .form-options {
   display: flex;
   justify-content: space-between;
-
 }
 
 a {
-  color: #FFC632;
+  color: #ffc632;
   text-decoration: none;
   text-align: center;
 }
 
 button {
-  background-color: #FFC632;
+  background-color: #ffc632;
   padding: 12px;
   border: 0;
   margin-top: 20px;
@@ -98,9 +113,10 @@ button {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.15em;
+   transition: 250ms;
 }
 
 button:hover {
-  box-shadow: 2px 2px white;
-  transition: 250ms;
+  box-shadow: 1px 1px white;
 }
+ 

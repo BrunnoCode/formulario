@@ -78,12 +78,14 @@ section.img-section {
   display: grid;
   gap: 4px;
   position: relative;
+  
 }
 
 label input[type='checkbox'] {
   font-family: 'Roboto';
   font-size: 1rem;
   color: #afb6c2;
+  
 }
 
 input[type='checkbox'] {
@@ -121,6 +123,8 @@ input[type='checkbox'] {
 
 .input input {
   padding: 12px 12px 12px 37px;
+  background-color: transparent;
+  
 }
 
 input[type='email'] {

@@ -3,9 +3,10 @@ const icon = document.getElementById('js-img')
 const btn = document.getElementById('js-btn')
 const form = document.querySelector('.form')
 
-form.
 
-btn.addEventListener('click', () => {
+
+btn.addEventListener('click', (event) => { 
+    event.preventDefault()
   if (input.getAttribute('type') === 'text' ) {
     input.setAttribute('type', 'password');
     icon.setAttribute('src', "./img/eye-slash.svg")

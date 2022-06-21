@@ -39,7 +39,7 @@ section.img-section {
   height: 100%;
   width: 50%;
 
-  background-image: url('./img/side-image.jpg');
+  background-image: url('./img/side-image-2x.jpg');
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -58,7 +58,7 @@ section.img-section {
   margin-left: 8.5em;
   width: 30em;
   display: flex;
-  background: #3a3a3a;
+  background: #24221F;
   padding: 50px 60px;
 }
 
@@ -127,7 +127,7 @@ label {
 .input input {
   padding: 12px 12px 12px 37px;
   border: 1px solid #868686;
-  background-color: #3a3a3a;
+  background-color: #24221F;
 }
 
 #area-input {
@@ -141,13 +141,13 @@ label {
   outline: none;
   flex: 1;
   border: none;
-  background-color: #3a3a3a;
+  background-color: #24221F;
 }
 
 #js-btn {
   border: none;
   outline: none;
-  background-color: #3a3a3a;
+  background-color: #24221F;
   padding-right: 12px;
 }
 
